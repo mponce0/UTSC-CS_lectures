@@ -5,7 +5,7 @@
 # @Date: March 2021
 ####################################################################
 
-def factorialIteractive(num):
+def factorialIterative(num):
 	'''Function to compute factorial using the iterative product implementation'''
 
 	fact = 1

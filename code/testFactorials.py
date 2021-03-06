@@ -54,7 +54,7 @@ def profileFactFns():
 	import cProfile
 
         # Profile each implementation using the testing fn
-	cProfile.run("testingFn(factorialIteractive)",'pIte')
+	cProfile.run("testingFn(factorialIterative)",'pIte')
 	cProfile.run("testingFn(factorialRecursive)",'pRec')
 	cProfile.run("testingFn(factorialBuiltin)",'pB1')
 	cProfile.run("testingFn(factorialBuiltin2)",'pB2')
