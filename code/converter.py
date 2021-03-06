@@ -11,4 +11,4 @@ def to_string(n, b, convTab='0123456789abcdef'):
 
 # run example case if script is run from CLI
 if __name__ == "__main__":
-	print(to_string(1453, 16))  # => 5Ad
+	print(to_string(1453, 16))  # => 5ad
