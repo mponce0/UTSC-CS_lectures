@@ -11,7 +11,7 @@ from factorials import *
 #######
 
 def testingFn(FactFn):
-	'''Function to test and profile factorials fns defines in factorials.py'''
+	'''Function to test and profile factorials fns defined in factorials.py'''
 
 	# load sys module to manipulate stack limits
 	import sys
@@ -38,6 +38,7 @@ def testingFn(FactFn):
 
 
 def profSort(prof, key='cumulative', n=5):
+	'''function to sort profiling stats using a key and selecting n entries'''
 
 	import pstats
 
